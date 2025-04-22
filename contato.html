@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style-contato.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="curr-iculo.html">Currículo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="https://github.com/thierrysuceli">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contato-container">
+        <h1>Formulário de Contato</h1>
+        <form class="form-contato" action="eu deveria colocar o back aqui, mas n sei kkkkkk" method="post">
+    
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" required>
+    
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+    
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+    
+          <fieldset>
+            <legend>Tipo de pessoa</legend>
+            <label><input type="radio" name="tipoPessoa" value="fisica" required> Pessoa Física</label>
+            <label><input type="radio" name="tipoPessoa" value="juridica"> Pessoa Jurídica</label>
+          </fieldset>
+    
+          <label for="horario">Melhor horário para contato</label>
+          <select id="horario" name="horario" required>
+            <option value="">-- Selecione --</option>
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+          </select>
+    
+          <label for="servico">Tipo de serviço</label>
+          <div class="checkboxes">
+            <label><input type="checkbox" name="servico" value="web"> Desenvolvimento Web</label>
+            <label><input type="checkbox" name="servico" value="design"> Design Gráfico</label>
+            <label><input type="checkbox" name="servico" value="outro"> Outro</label>
+          </div>
+    
+          <label for="descricao">Descreva o que deseja contratar</label>
+          <textarea id="descricao" name="descricao" rows="6" required></textarea>
+    
+          <button type="submit">Enviar</button>
+    
+        </form>
+      </main>
+</body>
+</html>
