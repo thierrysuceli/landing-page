@@ -3,7 +3,8 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background: url('code\ black\ art\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif') no-repeat center center fixed;
+    background-size: cover;
     color: white;
     position: relative;
 }
@@ -14,7 +15,8 @@ header {
     position: fixed;
     z-index: 1000;
     width: 100%;
-    top: 0;}
+    top: 0;
+    height: 2%;}
 
 
   nav {
@@ -39,7 +41,16 @@ header {
 
   nav ul li a:hover {
     text-decoration: underline;
+    font-size: 1.2em;
+    margin: -7px;
+    transition: 0.3s;
+    transition: 0.3s;
   }
+
+ nav ul:hover{
+    position: absolute;
+            top: 15px;
+          }
 
   .contato-container {
     max-width: 700px;
