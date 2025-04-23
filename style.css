@@ -175,3 +175,55 @@ header {
         box-shadow: 0 0 25px white;
       }
       
+      @media (max-width: 768px) {
+        header {
+          padding: 10px;
+          height: auto;
+        }
+      
+        nav {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        nav ul {
+          flex-direction: column;
+          gap: 10px;
+        }
+      
+        nav ul li a {
+          font-size: 1em;
+        }
+      
+        .home {
+          width: 90%;
+          margin-left: 5%;
+          font-size: 1.2em;
+          padding: 5%;
+        }
+      
+        .foto-perfil {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 25%;
+          width: 50%;
+          height: auto;
+          display: block;
+        }
+      
+        .barra-direita {
+          width: 90%;
+          left: 5%;
+          font-size: 1em;
+          padding: 15px;
+        }
+      
+        .video-container h2 {
+          font-size: 1.5em;
+        }
+      
+        .video-container iframe {
+          width: 95%;
+        }
+      }
+      

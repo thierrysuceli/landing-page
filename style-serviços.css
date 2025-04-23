@@ -91,3 +91,45 @@ header {
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.3);
   }
+
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+      height: auto;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    nav ul li a {
+      font-size: 1em;
+      padding: 10px 0;
+    }
+  
+    main {
+      padding: 1rem;
+      max-width: 95%;
+    }
+  
+    section {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    th, td {
+      padding: 0.5rem;
+      font-size: 0.9em;
+    }
+  
+    footer {
+      font-size: 0.9em;
+    }
+  }
