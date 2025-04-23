@@ -93,25 +93,9 @@ header {
   }
 
   @media (max-width: 768px) {
-    header {
-      padding: 10px;
-      height: auto;
-    }
-  
-    nav {
-      flex-direction: column;
-      align-items: flex-start;
-    }
   
     nav ul {
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-    }
-  
-    nav ul li a {
-      font-size: 1em;
-      padding: 10px 0;
+      gap: 2.5%;
     }
   
     main {
@@ -133,3 +117,5 @@ header {
       font-size: 0.9em;
     }
   }
+
+  

@@ -124,3 +124,10 @@ header {
   button:hover {
     background-color: white;
   }
+
+  @media (max-width: 768px) {
+  
+    nav ul {
+      gap: 2.5%;
+    }
+  }
