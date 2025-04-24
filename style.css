@@ -206,5 +206,14 @@ header {
         .video-container iframe {
           width: 95%;
         }
+
+        .foto-perfil{
+          margin-top: 15%;
+          margin-left: 37.5%;
+          width: 35%;
+          height: 35%;
+          border-radius: 50%;
+          box-shadow: 0 0 25px white;
+      }
       }
       
